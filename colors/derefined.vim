@@ -1,5 +1,5 @@
 " Vim color file
-" derefined v1.0
+" derefined v1.0b
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -24,7 +24,7 @@ hi NonText      guifg=red guibg=black ctermfg=red ctermbg=black
 
 hi Folded       guibg=blue guifg=grey ctermbg=blue ctermfg=grey
 hi FoldColumn	guibg=black guifg=yellow ctermbg=black ctermfg=yellow
-hi LineNr       guibg=black guifg=blue gui=bold ctermbg=black ctermfg=blue
+hi LineNr       guibg=black guifg=cyan gui=bold ctermbg=black ctermfg=cyan
 hi StatusLine	guibg=yellow guifg=blue gui=none ctermbg=yellow ctermfg=blue
 hi StatusLineNC	guibg=darkyellow guifg=black gui=none ctermbg=darkyellow ctermfg=black 
 hi VertSplit	guibg=darkcyan guifg=darkblue  gui=none ctermbg=darkcyan ctermfg=darkblue
@@ -43,13 +43,13 @@ hi MatchParen	guibg=#7b5a55 guifg=#001122
 " syntax highlighting """"""""""""""""""""""""""""""""""""""""
 
 
-hi Comment		guifg=cyan  guibg=darkcyan ctermfg=cyan ctermbg=darkcyan
+hi Comment		guifg=cyan  guibg=blue ctermfg=cyan ctermbg=blue
 hi Title	    guifg=yellow guibg=black gui=none  ctermfg=yellow ctermbg=black cterm=none 
 hi Underlined   guifg=cyan guibg=black gui=none    ctermfg=cyan ctermbg=black cterm=none   
 
 hi Statement    guifg=yellow gui=none ctermfg=yellow cterm=none
 hi Type		    guifg=cyan  gui=none ctermfg=cyan  cterm=none
-hi Constant	    guifg=grey ctermfg=grey
+hi Constant	    guifg=white ctermfg=white
 hi Number       guifg=white ctermfg=white
 hi PreProc      guifg=magenta ctermfg=magenta
 hi Special	    guifg=magenta ctermfg=green
@@ -59,8 +59,8 @@ hi Error        guifg=yellow guibg=red ctermfg=yellow ctermbg=red
 hi Function     guifg=yellow guibg=bg gui=None ctermfg=yellow ctermbg=bg cterm=none
 hi Identifier   guifg=cyan ctermfg=cyan gui=none cterm=none
 """""this section borrowed from OceanDeep/Midnight"""""
-highlight Conditional gui=None guifg=cyan guibg=blue cterm=None ctermfg=cyan ctermbg=blue
-highlight Repeat gui=None guifg=yellow guibg=blue cterm=None ctermfg=yellow ctermbg=blue
+highlight Conditional gui=None guifg=yellow guibg=bg cterm=None ctermfg=yellow ctermbg=bg
+highlight Repeat gui=None guifg=yellow guibg=bg cterm=None ctermfg=yellow ctermbg=bg
 "hi Label gui=None guifg=LightGreen guibg=bg
 highlight Operator gui=None guifg=yellow guibg=bg cterm=None ctermfg=yellow ctermbg=bg
 highlight Keyword gui=bold guifg=grey guibg=bg cterm=bold ctermfg=grey ctermbg=bg
