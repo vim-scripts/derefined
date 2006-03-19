@@ -1,5 +1,5 @@
 " Vim color file
-" derefined v1.1
+" derefined v1.1b
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -22,12 +22,12 @@ let g:colors_name="derefined"
 hi Normal       guifg=green guibg=darkcyan ctermfg=green ctermbg=darkcyan 
 hi NonText      guifg=red guibg=black ctermfg=red ctermbg=black
 
-hi Folded       guibg=blue guifg=grey ctermbg=blue ctermfg=grey
+hi Folded       guibg=black guifg=green gui=bold ctermbg=black ctermfg=green
 hi FoldColumn	guibg=black guifg=yellow ctermbg=black ctermfg=yellow
-hi LineNr       guibg=black guifg=cyan gui=bold ctermbg=black ctermfg=cyan
-hi StatusLine	guibg=yellow guifg=blue gui=none ctermbg=yellow ctermfg=blue
-hi StatusLineNC	guibg=darkyellow guifg=black gui=none ctermbg=darkyellow ctermfg=black 
-hi VertSplit	guibg=darkcyan guifg=darkblue  gui=none ctermbg=darkcyan ctermfg=darkblue
+hi LineNr       guibg=black guifg=cyan gui=none ctermbg=black ctermfg=cyan
+hi StatusLine	guibg=grey guifg=blue gui=bold ctermbg=white ctermfg=blue
+hi StatusLineNC	guibg=grey guifg=black gui=bold ctermbg=grey ctermfg=black 
+hi VertSplit	guibg=darkgreen guifg=darkblue  gui=none ctermbg=darkgrey ctermfg=darkblue
 
 hi tablinesel   guibg=#515a71 guifg=#50aae5 gui=none
 hi tabline      guibg=#4d4d5f guifg=#5b7098 gui=none
